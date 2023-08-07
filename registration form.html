@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="Drift_Racing_Team_logo.png">
+    <link rel="stylesheet" href="registration form.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="form-title">Registration Form</h1>
+        <form action="#">
+            <div class="main-user-information">
+                <div class="user-input-box">
+                    <label for="fullname">Full Name* :</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter Full Name">
+                </div>
+                <div class="user-input-box">
+                    <label for="registration-no.">Registration No.* :</label>
+                    <input type="text" id="registration-no." name="registration-no." required placeholder="Enter Registration No.">
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email* :</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter email">
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone No.* :</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter phone no.">
+                </div>
+                <div class="user-input-box">
+                    <label for="select">Branch* :</label>
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>Computer Science Engineering</option>
+                        <option value="1">Electronics and Communication Engineering</option>
+                        <option value="2">Electrical Engineering</option>
+                        <option value="2">Mechanical Engineering</option>
+                        <option value="2">Civil Engineering</option>
+                        <option value="2">Metallurgical Engineering</option>
+                        <option value="2">Production Engineering</option>
+                        <option value="2">Electronics and Computational Mechanics</option>
+                      </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="department">Department Intrested :</label>
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>TECHNICAL</option>
+                        <option value="1">CREATIVE</option>
+                        <option value="2">WEB</option>
+                    </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="resume">CV/Resume* :</label>
+                    <input type="file" id="resume" name="resume" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="teamsJoined">Teams Joined :</label>
+                    <input type="text" id="teamsJoined" name="teamsJoined" required placeholder="Type Here">
+                </div>
+            </div>
+            <div class="attend-orientation">
+                <span class="attend-title">Have you attend orientation?</span>
+                <div class="category">
+                    <input type="radio" name="yes-no" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yes-no" id="no">
+                    <label for="no">No</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
